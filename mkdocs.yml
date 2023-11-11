@@ -1,0 +1,18 @@
+site_name: Machine Learning
+site_description: Learn Machine Learning
+docs_dir: docs
+
+theme:
+    name: material
+    palette:
+        primary: 'blue'
+        accent: 'light blue'
+    language: en
+    feature:
+        tabs: true
+
+extra_css:
+    - custom/style.css
+
+extra_javascript:
+    - custom/script.js

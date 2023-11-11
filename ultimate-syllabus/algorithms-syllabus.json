@@ -1,0 +1,122 @@
+{
+    "EDA": {
+        "Data Collection and Loading": {},
+        "Data Inspection": {},
+        "Summary Statistics": {},
+        "Handling Missing Data": {},
+        "Data Visualization": {},
+        "Feature Distributions": {},
+        "Correlation Analysis": {},
+        "Categorical Features": {},
+        "Feature Engineering": {
+            "Feature Selection": {
+                "Filter Methods": null,
+                "Wrapper Methods": null,
+                "Embedded Methods": null,
+                "Dimensionality Reduction": {
+                    "Principal Component Analysis (PCA)": null,
+                    "t-Distributed Stochastic Neighbor Embedding (t-SNE)": null,
+                    "Linear Discriminant Analysis (LDA)": null
+                },
+                "Feature Importance from Tree-Based Models": null,
+                "Recursive Feature Elimination (RFE)": null,
+                "Univariate Feature Selection": null
+            }
+        },
+        "Outlier Detection": {},
+        "Data Partitioning": {},
+        "Further Analysis": {}
+    },
+    "Machine Learning": {
+        "Supervised Learning": {
+            "Regression": {
+                "Linear Regression": "https://youtu.be/nk2CQITm_eo",
+                "Locally Weighted Scatterplot Smoothing (Lowess)": null,
+                "Support Vector Regression (SVR)": null,
+                "Decision Tree Regression (DTR)": null,
+                "Random Forest Regression": null,
+                "K-Nearest Neighbour Regression (KNN)": null,
+                "Multivariate Adaptive Regression splines (MARS)": null
+            },
+            "Classification": {
+                "Support Vector Machines (SVM)": "https://youtu.be/efR1C6CvhmE",
+                "Decision Tree Classification (CART)": "https://youtu.be/_L39rN6gz7Y",
+                "Random Forest CLassification": "https://youtu.be/J4Wdy0Wc_xQ",
+                "Adaptive Boosting (AdaBoost)": "https://youtu.be/LsK-xG1cLYA",
+                "Gradient Boosted Trees": "https://youtu.be/3CC4N4z3GJc",
+                "Extreme Gradient Boosting (XGBoost)": "https://youtu.be/OtD8wVaFm6E",
+                "K-Nearest Neighbours Classification (KNN)": "https://youtu.be/HVXime0nQeI",
+                "Logistic Regression": "https://youtu.be/yIYKR4sgzI8",
+                "Naive Bayes": "https://youtu.be/O2L2Uv9pdDA"
+            }
+        },
+        "Neural Network": {
+            "Auto Encoders": {
+                "Variational Auto Encoder (VAE)": null,
+                "Undercomplete Auto Encoder (AE)": null,
+                "Sparse Auto Encoder (SAE)": null,
+                "Denoising Auto Encoder (DAE)": null
+            },
+            "Recurrent Neural Networks (RNN)": {
+                "Long Short Term Memory (LSTM)": null,
+                "Rcurrent Neural Network (RNN)": null,
+                "Gated Reccurent Unit (GRU)": null
+            },
+            "Feed Forward Neural Network (FNN)": {
+                "Feed Forward Neural Network (FNN)": null,
+                "Deep Feed Forward Neural Network (DFF)": null
+            },
+            "Convolutional Neural Network (CNN)": {
+                "Transposed Convolutional Network": null,
+                "Deep Convolutional Network (DCN)": null
+            },
+            "Generative Adversarial Networks (GAN)": {
+                "Conditional GAN (cGAN)": null,
+                "Deep Convolutional GAN (DCGAN)": null,
+                "Cycle GAN": null,
+                "Wasterstein GAN (WGAN)": null,
+                "Generative Adverserial Network (GAN)": null
+            }
+        },
+        "Unsupervised Learning": {
+            "Dimensionality Reduction": {
+                "Multidimensional Scaling (MDS)": null,
+                "Isomap Embedding": null,
+                "t-Distributed Stochastic Neighbor Embedding (t-SNE)": null,
+                "Locally Linear Embedding (LLE)": null,
+                "Uniform Manifold Approximation and Projection (UMAP)": null,
+                "Principal Component Analysis": null
+            },
+            "Clustering": {
+                "K-Means": null,
+                "Density-Based Spatial Clustering of Applications with Noise (DBSCAN)": null,
+                "Hierarchical Agglomerative Clustering (HAC)": null,
+                "Gaussian Mixture Models (GMM)": null
+            },
+            "Association": {
+                "Apriori": null
+            }
+        },
+        "Reinforcement Learning": {
+            "Value-Based Methods": {
+                "Q-Learning": null,
+                "State-Action-Reward-State-Action (SARSA)": null,
+                "Deep Q Neural Network": null
+            },
+            "Policy-Based Methods": {
+                "Policy Gradient": null,
+                "Proximal Policy Optimization (PPO)": null
+            }
+        },
+        "Semi-Supervised Learning": {
+            "Label Spreading": null,
+            "Self Training Classifier": null,
+            "Label Propagation": null
+        },
+        "Others": {
+            "Probabilistic Graphical Models": {
+                "Bayesian Belief Network (BNN)": null
+            }
+        }
+    }
+}

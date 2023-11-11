@@ -1,0 +1,176 @@
+[
+    {
+        "content": "Harvard CS 50",
+        "link": "https://youtu.be/8mAITcNt710",
+        "suggested-by": "Me",
+        "creator": "Harvard"
+    },
+    {
+        "content": "Harvard CS 50 AI",
+        "link": "https://youtube.com/watch?v=5NgNicANyqM&feature=share",
+        "suggested-by": "Me",
+        "creator": "Harvard"
+    },
+    {
+        "content": "Machine Learning",
+        "link": "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN",
+        "creator": "Andrew Ng",
+        "suggested-by": [
+            "Asif Salim",
+            "Shiju SS",
+            "Niyas M"
+        ]
+    },
+    {
+        "content": "Machine Learning",
+        "link": "https://www.youtube.com/playlist?list=PLl8OlHZGYOQ7bkVbuRthEsaLr7bONzbXS",
+        "creator": "Kilian Weinberger",
+        "suggested-by": [
+            "Asif Salim",
+            "Shiju SS"
+        ],
+        "comment": "Discusses more algorithms compared to others"
+    },
+    {
+        "content": "Machine Learning",
+        "link": "https://www.youtube.com/playlist?list=PLvx5ei9aEEqKgDZ7oaQGSToFi-QER4v1M",
+        "creator": "Yaser Abu-Mostafa (Caltech)",
+        "suggested-by": [
+            "Asif Salim",
+            "Shiju SS"
+        ],
+        "comment": "Would be tough"
+    },
+    {
+        "content": "Deep Learning",
+        "link": "https://www.youtube.com/@ProfNandoDF/videos",
+        "creator": "Nando de Freitas",
+        "suggested-by": [
+            "Asif Salim",
+            "Shiju SS"
+        ]
+    },
+    {
+        "content": "Data Science",
+        "link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1",
+        "creator": "freecodecamp",
+        "suggested-by": "Me"
+    },
+    {
+        "content": "Machine Learning",
+        "link": "https://chart-studio.plotly.com/~SolClover/53.embed",
+        "suggested-by": "Me"
+    },
+    {
+        "content": "Exploratory Data Analysis",
+        "link": "https://www.youtube.com/watch?v=GPVsHOlRBBI",
+        "suggested-by": "Me"
+    },
+    {
+        "content": "Exploratory Data Analysis",
+        "link": "https://www.youtube.com/watch?v=fHFOANOHwh8",
+        "suggested-by": "Me"
+    },
+    {
+        "content": "Mathematics",
+        "link": "https://www.mathsisfun.com/",
+        "suggested-by": "Me"
+    },
+    {
+        "content": "Machine Learning",
+        "link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s",
+        "suggested-by": "Me",
+        "creator": "freecodecamp"
+    },
+    {
+        "content": "Tensorflow",
+        "link": "https://youtu.be/tPYj3fFJGjk",
+        "suggested-by": "Me",
+        "creator": "freecodecamp"
+    },
+    {
+        "content": "Pandas & Python",
+        "link": "https://www.youtube.com/watch?v=gtjxAH8uaP0",
+        "suggested-by": "Me",
+        "creator": "freecodecamp"
+    },
+    {
+        "content": "Numpy, Pandas, Matplotlib, Seaborn",
+        "link": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+        "suggested-by": "Me",
+        "creator": "freecodecamp"
+    },
+    {
+        "content": "Stanford CS229 Machine Learning",
+        "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU",
+        "suggested-by": "Me",
+        "creator": "Andrew Ng"
+    },
+    {
+        "content": "Statquest",
+        "link": "https://www.youtube.com/@statquest",
+        "suggested-by": "Me",
+        "creator": "Statquest"
+    },
+    {
+        "content": "Algorithms",
+        "link": "https://www.coursera.org/learn/algorithms-part1",
+        "suggested-by": "Me",
+        "creator": "Princeton University"
+    },
+    {
+        "content": "Algorithms",
+        "link": "https://www.coursera.org/learn/algorithms-part2",
+        "suggested-by": "Me",
+        "creator": "Princeton University"
+    },
+    {
+        "content": "Neural Network",
+        "link": [
+            "https://www.v7labs.com/blog/neural-network-architectures-guide",
+            "https://www.v7labs.com/blog/data-science-interview-questions-and-answers",
+            "https://www.v7labs.com/blog",
+            "https://www.v7labs.com/blog/recurrent-neural-networks-guide",
+            "https://www.v7labs.com/blog/convolutional-neural-networks-guide",
+            "https://www.v7labs.com/blog/overfitting-vs-underfitting",
+            "https://www.v7labs.com/blog/overfitting",
+            "https://www.v7labs.com/blog/supervised-vs-unsupervised-learning",
+            "https://www.v7labs.com/blog/train-validation-test-set",
+            "https://www.v7labs.com/blog/machine-learning-guide",
+            "https://www.v7labs.com/blog/logistic-regression",
+            "https://www.v7labs.com/blog/mlops-machine-learning-ops-guide",
+            "https://www.v7labs.com/blog/cross-entropy-loss-guide",
+            "https://www.v7labs.com/blog/coco-dataset-guide",
+            "https://www.v7labs.com/blog/foundation-models-guide",
+            "https://www.v7labs.com/blog/generative-ai-guide",
+            "https://www.v7labs.com/blog/data-centric-ai-the-secret-of-successful-ai-products",
+            "https://www.v7labs.com/blog/training-data-ops-software-build-or-buy",
+            "https://www.v7labs.com/blog/why-enterprise-ai-products-fail-training-data-to-talent",
+            "https://www.v7labs.com/blog/how-to-build-ai-powered-digital-pathology-products",
+            "https://www.v7labs.com/blog/rlhf-reinforcement-learning-from-human-feedback",
+            "https://www.v7labs.com/blog/large-language-models-llms",
+            "https://www.v7labs.com/blog/performance-metrics-in-machine-learning",
+            "https://www.v7labs.com/blog/multimodal-deep-learning-guide",
+            "https://www.v7labs.com/blog/graph-neural-networks-guide",
+            "https://www.v7labs.com/blog/multi-task-learning-guide",
+            "https://www.v7labs.com/blog/precision-vs-recall-guide",
+            "https://www.v7labs.com/blog/confusion-matrix-guide",
+            "https://www.v7labs.com/blog/active-learning-guide",
+            "https://www.v7labs.com/blog/generative-adversarial-networks-guide",
+            "https://www.v7labs.com/blog/pytorch-loss-functions",
+            "https://www.v7labs.com/blog/semi-supervised-learning-guide",
+            "https://www.v7labs.com/blog/contrastive-learning-guide",
+            "https://www.v7labs.com/blog/reinforcement-learning-applications",
+            "https://www.v7labs.com/blog/ensemble-learning",
+            "https://www.v7labs.com/blog/deep-learning-guide",
+            "https://www.v7labs.com/blog/ai-in-retail",
+            "https://www.v7labs.com/blog/data-annotation-guide",
+            "https://www.v7labs.com/blog/data-cleaning-guide",
+            "https://www.v7labs.com/blog/data-preprocessing-guide",
+            "https://www.v7labs.com/blog/deep-reinforcement-learning-guide",
+            "https://www.v7labs.com/blog/computer-vision-datasets"
+        ],
+        "suggested-by": "Me",
+        "creator": "V7 Labs"
+    }
+]
