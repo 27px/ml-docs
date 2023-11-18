@@ -172,5 +172,22 @@
         ],
         "suggested-by": "Me",
         "creator": "V7 Labs"
+    },
+    {
+        "content": "Machine Learning",
+        "links": [
+            "https://whimsical.com/machine-learning-roadmap-2020-CA7f3ykvXpnJ9Az32vYXva",
+            "https://www.deeplearningbook.org/",
+            "https://mml-book.github.io/",
+            "https://course.fast.ai/",
+            "https://www.youtube.com/playlist?list=PLtmWHNX-gukIc92m1K0P6bIOnZb-mg0hY",
+            "https://wandb.ai/site/experiment-tracking",
+            "https://huyenchip.com/2020/06/22/mlops.html",
+            "https://github.com/alirezadir/Production-Level-Deep-Learning",
+            "https://machinelearningmastery.com/types-of-classification-in-machine-learning/",
+            "https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html",
+            "https://seeing-theory.brown.edu/index.html#firstPage"
+        ],
+        "suggested-by": "Me"
     }
 ]
