@@ -1,14 +1,66 @@
-const to_be_defined = null;
-
-const schema = {
+{
     "Machine Learning": {
         "Process": {
-            "Train Model on data": to_be_defined,
-            "Data Preperation": to_be_defined,
-            "Analysis/Evaluation": to_be_defined,
-            "Data Collection": to_be_defined,
-            "Serve Model": to_be_defined,
-            "Retrain Model": to_be_defined,
+            "Data Collection": ["what kind of problem are we trying to solve", "existing datasets", "what primary concerns are there", "is the data public"],
+            "Data Preperation": {
+                "EDA": ["features (input) and variables (output)", "type of data", "missing values", "outliers", "domain expert"],
+                "Data Processing": {
+                    "Feature Imputation: filling missing values": {
+                        "Single Imputation": "fill with ean, median or column",
+                        "Multiple Imputation": "model with other values and fill with model output",
+                        "KNN (k-nearest-neighbour)": "fill data with a value from another example which is similar",
+                        "Others": "random, last observation (carry forward, in time series), moving window, most frequent"
+                    },
+                    "Feature Encoding, turning vales into numbers": ["OneHotEncoding", "LabelEncoding", "EmbeddingEncoding"],
+                    "Feature Normalization": {
+                        "Feature Scaling": "also called normalization, transforms data between 0 and 1",
+                        "Feature Standardization": "standardizes values so that they have a mean of 0 and unit variance"
+                    },
+                    "Feature Engineering, transform data into more meaningful representation by adding domain knowledge": {
+                        "Decompose": "timestamp to day month ..., day_of_week etc",
+                        "Discretization": "turning large groups into smaller ones, eg: age into above_50, under_40 etc, this process is known as binning, also different types of green like dark green, light green into green category, etc",
+                        "Crossing & Interaction features": "combining two or more features, eg: house_last_sold_date and current_date to get time_on_market",
+                        "Indicator Features": "X_is_missing column as indicator"
+                    },
+                    "Feature Selection": "selecting features that are most valuable, reduces overfitting, reduces training time, processing, and improving accuracy. Dimensionality reduction, PCA. Feature Importance, remove least important ones",
+                    "Dealing with imbalances": ["collect more data if possible", "https://imbalanced-learn.org/stable/", "https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/", "https://web.uri.edu/cisa/"]
+                },
+                "Data Splitting": "train:test:validation usually is 70:15:15 or 80:10:10"
+            },
+            "Train Model on data": {
+                "Choosing an Algorithm": {
+                    "Supervised": {
+                        "Linear Regression": null,
+                        "Logistic Regression": null,
+                        "k-Nearst Neighbour": null,
+                        "SVM": null,
+                        "Decision Tree": null,
+                        "Random Forest": null,
+                        "Ada Boost/Gradient Boost": ["XGBoost", "CatBoost", "LightGBM"],
+                        "Neural Networks": null
+                    },
+                    "Unsupervised": {
+                        "Clustering": null,
+                        "Visualization and Dimensionality Reduction": ["PCA", "t-SNE", "AutoEncoder"],
+                        "Anomaly Detection": ["AutoEncoder", "One-Class Classification"]
+                    }
+                },
+                "Types of learning": ["Batch Learning", "Online Learning", "Transfer Learning", "Active Learning", "Ensembling"],
+                "Underfitting": "model underperforms, try learning longer, or use advanced models",
+                "Overfitting": {
+                    "regularization": ["L1 (Lasso)", "L2 (Ridge)", "Dropout", "Early Stopping", "Data Augmentation", "Batch Normalization"]
+                },
+                "Hyperparameter Tuning": ["learning rate: often most important, high lr will cause algorithm to raidly adapt to new data (but might not be useful accuracy), lower ones slow adaptation (but accurate), (eg for transfer learning)", "https://arxiv.org/abs/1803.09820", "other params to tune: number of layers (NN), batch size, number of trees (rf), iterations"]
+            },
+            "Analysis/Evaluation": ["Evaluation metrics", "Feature Importance, which feature contributes most to the model? should some be removed etc.", "how long does model training take, is it feasible", "how long does inference take, is it suitable for production", "least confident examples, what does the model get wrong", "bias/variance trade-off"],
+            "Deployment": {
+                "MLOps": "https://huyenchip.com/2020/06/22/mlops.html",
+                "TensorFlow": "https://www.tensorflow.org/tfx/guide/serving",
+                "Pytorch": "https://pytorch.org/serve/",
+                "Google AI Platform": "https://cloud.google.com/vertex-ai",
+                "Sagemaker": "https://aws.amazon.com/sagemaker/"
+            },
+            "Retrain Model": "continuously evaluate how the model performs after deployment, models will 'age' in time, degrade in performance due to 'drift' and seasonal changes etc"
         },
         "Resources": {
             "Code": [
@@ -32,7 +84,7 @@ const schema = {
                 "https://www.mrdbourke.com/mlcourse/",
                 "https://www.kaggle.com/learn",
                 "https://www.datacamp.com/",
-                "https://www.dataquest.io/",
+                "https://www.dataquest.io/"
             ],
             "Books": [
                 "Automate the Boring Stuff with Python, 2nd Edition: Practical Programming for Total Beginners 2nd Edition",
@@ -47,65 +99,22 @@ const schema = {
                 "https://christophm.github.io/interpretable-ml-book/intro.html",
                 "https://seeing-theory.brown.edu/index.html#firstPage",
                 "https://mml-book.github.io/",
-                "https://explained.ai/matrix-calculus/index.html",
+                "https://explained.ai/matrix-calculus/index.html"
             ],
-            "Concepts and process": [
-                "https://www.elementsofai.com/",
-                "https://developers.google.com/machine-learning/crash-course",
-                "https://ai.google/build",
-                "https://research.facebook.com/blog/2018/05/the-facebook-field-guide-to-machine-learning-video-series/",
-                "https://madewithml.com/topics/",
-                "https://workera.ai/",
-                "https://www.kaggle.com/competitions",
-                "https://karpathy.medium.com/software-2-0-a64152b37c35",
-            ],
-            "Mathematics": [
-                "https://www.youtube.com/playlist?list=PLtmWHNX-gukIc92m1K0P6bIOnZb-mg0hY",
-                "https://www.khanacademy.org/math/multivariable-calculus",
-                "https://www.3blue1brown.com/topics/linear-algebra",
-                "https://www.khanacademy.org/math/calculus-1",
-                "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices",
-                "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
-                "https://www.khanacademy.org/math/statistics-probability",
-            ],
-            "Rules and Tidbits": [
-                "https://fastpages.fast.ai/",
-                "https://pages.github.com/",
-                "https://karpathy.github.io/2019/04/25/recipe/",
-                "https://developers.google.com/machine-learning/guides/rules-of-ml/",
-            ],
-            "Datasets": [
-                "https://datasetsearch.research.google.com/",
-                "https://www.kaggle.com/datasets",
-                "https://www.dataquest.io/blog/free-datasets-for-projects/",
-                "https://storage.googleapis.com/openimages/web/index.html",
-                "https://github.com/HumanSignal/awesome-data-labeling",
-                "https://index.quantumstat.com/"
-            ],
-            "Papers": [
-                "https://arxiv-sanity-lite.com/",
-                "https://madewithml.com/",
-                "https://paperswithcode.com/",
-                "https://sotabench.com/",
-            ],
-            "Others": [
-                "https://www.coursera.org/learn/learning-how-to-learn/",
-                "https://www.mrdbourke.com/6-techniques-which-help-me-study-machine-learning-five-days-per-week/",
-                "https://www.mrdbourke.com/aimastersdegree/",
-            ],
-            "Cloud Services": [
-                "https://www.pluralsight.com/cloud-guru",
-                "https://cloud.google.com/learn/training",
-                "https://aws.amazon.com/training/",
-                "https://learn.microsoft.com/en-us/training/azure/"
-            ],
+            "Concepts and process": ["https://www.elementsofai.com/", "https://developers.google.com/machine-learning/crash-course", "https://ai.google/build", "https://research.facebook.com/blog/2018/05/the-facebook-field-guide-to-machine-learning-video-series/", "https://madewithml.com/topics/", "https://workera.ai/", "https://www.kaggle.com/competitions", "https://karpathy.medium.com/software-2-0-a64152b37c35"],
+            "Mathematics": ["https://www.youtube.com/playlist?list=PLtmWHNX-gukIc92m1K0P6bIOnZb-mg0hY", "https://www.khanacademy.org/math/multivariable-calculus", "https://www.3blue1brown.com/topics/linear-algebra", "https://www.khanacademy.org/math/calculus-1", "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices", "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi", "https://www.khanacademy.org/math/statistics-probability"],
+            "Rules and Tidbits": ["https://fastpages.fast.ai/", "https://pages.github.com/", "https://karpathy.github.io/2019/04/25/recipe/", "https://developers.google.com/machine-learning/guides/rules-of-ml/"],
+            "Datasets": ["https://datasetsearch.research.google.com/", "https://www.kaggle.com/datasets", "https://www.dataquest.io/blog/free-datasets-for-projects/", "https://storage.googleapis.com/openimages/web/index.html", "https://github.com/HumanSignal/awesome-data-labeling", "https://index.quantumstat.com/"],
+            "Papers": ["https://arxiv-sanity-lite.com/", "https://madewithml.com/", "https://paperswithcode.com/", "https://sotabench.com/"],
+            "Others": ["https://www.coursera.org/learn/learning-how-to-learn/", "https://www.mrdbourke.com/6-techniques-which-help-me-study-machine-learning-five-days-per-week/", "https://www.mrdbourke.com/aimastersdegree/"],
+            "Cloud Services": ["https://www.pluralsight.com/cloud-guru", "https://cloud.google.com/learn/training", "https://aws.amazon.com/training/", "https://learn.microsoft.com/en-us/training/azure/"]
         },
         "Problems": {
             "Categories": {
                 "Supervised": "labelled data",
                 "Unsupervised": "finding patterns in unlabelled data",
                 "Reinforcement Learning": "training using reinforcement",
-                "Transfer Learning": "transferring knowledge",
+                "Transfer Learning": "transferring knowledge"
             },
             "Regression": {
                 "Example Problem": "stock price prediction, linear predictions",
@@ -113,7 +122,7 @@ const schema = {
                     "R-squared error": "perfect model scores 1.0",
                     "MSE (Mean Squared Error": "makes outliers stand out more, negative won't cancel positive, being 10% off is way higher than double of being 5% off",
                     "MAE (Mean Absolute Error)": "All errors on same scale, predicting 99 instead of 100 is same as predicting 101 instead of 100",
-                    "RMSE (Rooted Mean Squared Error)": "same as MAE, rooted so gets in the same unit",
+                    "RMSE (Rooted Mean Squared Error)": "same as MAE, rooted so gets in the same unit"
                 }
             },
             "Dimensionality Reduction": "reducing number of features without loosing much meaning",
@@ -123,7 +132,7 @@ const schema = {
                 "Problems": {
                     "Binary Classification": "cat or dog (true/false)",
                     "Multi-class Classification": "red, blue or green (multiple choises)",
-                    "Multi-label Classification": "items in a photo (multiple, tags, keywords etc)",
+                    "Multi-label Classification": "items in a photo (multiple, tags, keywords etc)"
                 },
                 "Evaluation Metrics": {
                     "Confusion Matrix": "useful for seeing where a model is getting confused",
@@ -134,8 +143,9 @@ const schema = {
                     "Precision Recall Tradeoff": "Increasing precision reduces recall, and vice versa, optimizing for one will reduce the other",
                     "Precision Recall Curve": "Plotting precision vs recall at different classification thresholds allow you to choose a precision value at a given recall value (as one increases, the other one decreases)",
                     "ROC Curve / AOC": "The receiver operating characteristic (ROC) curve is a common way to evaluate binary classifiers, Plots false positive rate against true positive rate, AUC (Area under the curve) 1.0 is perfect classifier, generally if don't have much positive examples or you care about false positive than false negative then use precision/recall curve rather than ROC/AUC curve",
+                    "mean average precision": "used for evaluating object detection tasks and information retrieval"
                 }
-            },
+            }
         },
         "Tools": {
             "Toolbox": {
@@ -184,14 +194,7 @@ const schema = {
                     "Production LevelDL Example Repo": "https://github.com/alirezadir/Production-Level-Deep-Learning"
                 }
             },
-            "Libraries": [
-                "scikit-learn",
-                "pytorch",
-                "pytorch lightning",
-                "tensorflow",
-                "keras",
-                "ONNX"
-            ],
+            "Libraries": ["scikit-learn", "pytorch", "pytorch lightning", "tensorflow", "keras", "ONNX"]
         },
         "Mathematics": {
             "Linear Algebra": "creating objects and set of rules to manipulate these objects",
@@ -201,6 +204,6 @@ const schema = {
             "Pobability": "study of uncertainity",
             "Optimization": "finding the ideal pattern which best describes the dataset, how do you optimize the model to do so",
             "Chain Rule": "basis of backpropagation, how neural networks improve themselves"
-        },
+        }
     }
 }

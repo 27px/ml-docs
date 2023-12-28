@@ -1,54 +1,29 @@
 [
     {
-        "content": "Harvard CS 50",
-        "link": "https://youtu.be/8mAITcNt710",
-        "suggested-by": "Me",
-        "creator": "Harvard"
-    },
-    {
-        "content": "Harvard CS 50 AI",
-        "link": "https://youtube.com/watch?v=5NgNicANyqM&feature=share",
-        "suggested-by": "Me",
-        "creator": "Harvard"
-    },
-    {
         "content": "Machine Learning",
         "link": "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN",
         "creator": "Andrew Ng",
-        "suggested-by": [
-            "Asif Salim",
-            "Shiju SS",
-            "Niyas M"
-        ]
+        "suggested-by": ["Asif Salim", "Shiju SS", "Niyas M"]
     },
     {
         "content": "Machine Learning",
         "link": "https://www.youtube.com/playlist?list=PLl8OlHZGYOQ7bkVbuRthEsaLr7bONzbXS",
         "creator": "Kilian Weinberger",
-        "suggested-by": [
-            "Asif Salim",
-            "Shiju SS"
-        ],
+        "suggested-by": ["Asif Salim", "Shiju SS"],
         "comment": "Discusses more algorithms compared to others"
     },
     {
         "content": "Machine Learning",
         "link": "https://www.youtube.com/playlist?list=PLvx5ei9aEEqKgDZ7oaQGSToFi-QER4v1M",
         "creator": "Yaser Abu-Mostafa (Caltech)",
-        "suggested-by": [
-            "Asif Salim",
-            "Shiju SS"
-        ],
+        "suggested-by": ["Asif Salim", "Shiju SS"],
         "comment": "Would be tough"
     },
     {
         "content": "Deep Learning",
         "link": "https://www.youtube.com/@ProfNandoDF/videos",
         "creator": "Nando de Freitas",
-        "suggested-by": [
-            "Asif Salim",
-            "Shiju SS"
-        ]
+        "suggested-by": ["Asif Salim", "Shiju SS"]
     },
     {
         "content": "Data Science",
@@ -175,7 +150,7 @@
     },
     {
         "content": "Machine Learning",
-        "links": [
+        "link": [
             "https://whimsical.com/machine-learning-roadmap-2020-CA7f3ykvXpnJ9Az32vYXva",
             "https://www.deeplearningbook.org/",
             "https://mml-book.github.io/",
@@ -186,8 +161,18 @@
             "https://github.com/alirezadir/Production-Level-Deep-Learning",
             "https://machinelearningmastery.com/types-of-classification-in-machine-learning/",
             "https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html",
-            "https://seeing-theory.brown.edu/index.html#firstPage"
+            "https://seeing-theory.brown.edu/index.html#firstPage",
+            "https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779",
+            "https://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/",
+            "https://elitedatascience.com/feature-engineering-best-practices"
         ],
         "suggested-by": "Me"
+    },
+    {
+        "content": "Machine Learning",
+        "link": "https://scikit-learn.org/stable/user_guide.html",
+        "suggested-by": "Me",
+        "comment": "All basic theories, very usefull",
+        "creator": "scikit-learn"
     }
 ]
