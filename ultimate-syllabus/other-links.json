@@ -174,5 +174,11 @@
         "suggested-by": "Me",
         "comment": "All basic theories, very usefull",
         "creator": "scikit-learn"
+    },
+    {
+        "content": "Data Science",
+        "link": "https://sdsclub.com/learning-paths/data-scientist/",
+        "suggested-by": "Me",
+        "comment": "from udemy"
     }
 ]
